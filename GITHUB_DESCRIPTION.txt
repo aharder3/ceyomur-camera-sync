@@ -1,0 +1,1 @@
+Linux/Raspberry Pi automation for Ceyomur CY95 / Ceyomur-style trail cameras: wake over BLE, connect to camera Wi-Fi, download media, upload with rclone and send Telegram notifications. Inspired by Mike Irving's CameraExperiments project.

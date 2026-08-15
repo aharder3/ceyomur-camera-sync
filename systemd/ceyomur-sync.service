@@ -1,0 +1,15 @@
+[Unit]
+Description=Ceyomur Camera Auto Sync
+After=network-online.target bluetooth.target
+Wants=network-online.target bluetooth.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/opt/ceyomur-camera-sync
+ExecStart=/opt/ceyomur-camera-sync/scripts/ceyomur_auto_upload.sh
+Restart=always
+RestartSec=20
+
+[Install]
+WantedBy=multi-user.target

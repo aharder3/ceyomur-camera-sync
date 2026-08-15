@@ -1,0 +1,8 @@
+.env
+*.log
+*.tmp
+*.html
+ceyomur-downloads/
+ceyomur-logs/
+__pycache__/
+.DS_Store
