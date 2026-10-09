@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" width="560" alt="CEYOMUR CAMERA AUTO SYNC logo">
+</p>
+
 # Ceyomur Camera Auto Sync
 
 A user-friendly Linux/Raspberry Pi automation for Ceyomur-style wildlife cameras.
